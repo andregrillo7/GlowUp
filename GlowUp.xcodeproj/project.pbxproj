@@ -15,6 +15,7 @@
 		405EA807D9DBCEEA45044DF6 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F09EBB5DDB08D9A4C98BC4 /* JournalEntry.swift */; };
 		45A1E9212133E3B507FBAAB0 /* ProgressPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC864C0A406F692CC32A65BE /* ProgressPhoto.swift */; };
 		4BD6527BFD247D8B331E6EFD /* MoodCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF54814F56723EAE1A9902 /* MoodCheckInView.swift */; };
+		4E982BEA3A6198B4D1ED8A7E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5001EC6DDEEF6670EA4331A /* ImageLoader.swift */; };
 		51BF2E5FD7D4F6F4F93C97EF /* NewJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E512B3B1D18343A55B8C18 /* NewJournalEntryView.swift */; };
 		6289E3838E3E621514E55C36 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E5A102A232C9A6FBE8487 /* ReportsView.swift */; };
 		6A0274E54A7DBDC788DC5A18 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56572A9D2FAE1775709010E8 /* NotificationManager.swift */; };
@@ -48,6 +49,7 @@
 		C44E5A102A232C9A6FBE8487 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
 		C7B47541A5AD320E31173ECE /* HabitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitRowView.swift; sourceTree = "<group>"; };
 		D1C7778C16D0BC5294937729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D5001EC6DDEEF6670EA4331A /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		DC864C0A406F692CC32A65BE /* ProgressPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPhoto.swift; sourceTree = "<group>"; };
 		E3682DE18CDA9F7CA0D2D34A /* HabitLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLog.swift; sourceTree = "<group>"; };
 		E8147263DF99E5BD888D386F /* AddIntelligenceLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIntelligenceLogView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		52F86373DFF9DBC19B380113 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				D5001EC6DDEEF6670EA4331A /* ImageLoader.swift */,
 				56572A9D2FAE1775709010E8 /* NotificationManager.swift */,
 			);
 			path = Utilities;
@@ -249,6 +252,7 @@
 				968BDA4BF95B9B111739C92B /* HabitRowView.swift in Sources */,
 				370CB1ED910BD10FD025C372 /* HabitsView.swift in Sources */,
 				AEECB11A3E407E57F3C10BE1 /* HomeView.swift in Sources */,
+				4E982BEA3A6198B4D1ED8A7E /* ImageLoader.swift in Sources */,
 				CAA2A95D8C88982624075302 /* IntelligenceLog.swift in Sources */,
 				C20AFDB2202AA84BD476B93B /* IntelligenceView.swift in Sources */,
 				405EA807D9DBCEEA45044DF6 /* JournalEntry.swift in Sources */,

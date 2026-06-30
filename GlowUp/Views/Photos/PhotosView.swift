@@ -92,22 +92,19 @@ struct PhotosView: View {
     private var photoGrid: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())], spacing: 4) {
             ForEach(filteredPhotos) { photo in
-                if let uiImage = UIImage(data: photo.imageData) {
-                    Image(uiImage: uiImage)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .aspectRatio(1, contentMode: .fill)
-                        .clipShape(RoundedRectangle(cornerRadius: 8))
-                        .overlay(alignment: .bottomLeading) {
-                            Text(photo.date.formatted(date: .abbreviated, time: .omitted))
-                                .font(.caption2)
-                                .padding(4)
-                                .background(.ultraThinMaterial)
-                                .clipShape(RoundedRectangle(cornerRadius: 4))
-                                .padding(4)
-                        }
-                }
+                ThumbnailImage(data: photo.imageData, key: photo.id.uuidString)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .aspectRatio(1, contentMode: .fill)
+                    .clipped()
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    .overlay(alignment: .bottomLeading) {
+                        Text(photo.date.formatted(date: .abbreviated, time: .omitted))
+                            .font(.caption2)
+                            .padding(4)
+                            .background(.ultraThinMaterial)
+                            .clipShape(RoundedRectangle(cornerRadius: 4))
+                            .padding(4)
+                    }
             }
         }
     }
@@ -115,9 +112,27 @@ struct PhotosView: View {
     private func loadPhoto(from item: PhotosPickerItem?) async {
         guard let item,
               let data = try? await item.loadTransferable(type: Data.self) else { return }
-        let photo = ProgressPhoto(type: selectedType, imageData: data)
+        // Compress large photos before storing to keep the database lean.
+        let storedData = compress(data) ?? data
+        let photo = ProgressPhoto(type: selectedType, imageData: storedData)
         context.insert(photo)
         try? context.save()
         photosPickerItem = nil
+    }
+
+    /// Downsizes to a reasonable max dimension and re-encodes as JPEG.
+    private func compress(data: Data, maxDimension: CGFloat = 1500, quality: CGFloat = 0.8) -> Data? {
+        guard let image = UIImage(data: data) else { return nil }
+        let size = image.size
+        let scale = min(1, maxDimension / max(size.width, size.height))
+        let newSize = CGSize(width: size.width * scale, height: size.height * scale)
+
+        let format = UIGraphicsImageRendererFormat()
+        format.scale = 1
+        let renderer = UIGraphicsImageRenderer(size: newSize, format: format)
+        let resized = renderer.image { _ in
+            image.draw(in: CGRect(origin: .zero, size: newSize))
+        }
+        return resized.jpegData(compressionQuality: quality)
     }
 }
