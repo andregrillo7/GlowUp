@@ -1,0 +1,35 @@
+name: GlowUp
+options:
+  bundleIdPrefix: com.andregrillo7
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15"
+
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.andregrillo7.glowup
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  GlowUp:
+    type: application
+    platform: iOS
+    sources:
+      - GlowUp
+    settings:
+      base:
+        INFOPLIST_FILE: GlowUp/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.andregrillo7.glowup
+    info:
+      path: GlowUp/Info.plist
+      properties:
+        CFBundleDisplayName: GlowUp
+        UILaunchStoryboardName: LaunchScreen
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSCameraUsageDescription: "GlowUp uses your camera for daily progress photos."
+        NSPhotoLibraryUsageDescription: "GlowUp accesses your photo library for progress photos."
+        NSPhotoLibraryAddUsageDescription: "GlowUp saves progress photos to your library."
+        UIUserNotificationSettings: true
+    dependencies: []

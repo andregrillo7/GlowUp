@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072FED376B55080AAE667C75 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BDE3C5448B180E07A13E34 /* MoodEntry.swift */; };
+		07F4DF96D3BE78CFC4E09E9C /* AddIntelligenceLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8147263DF99E5BD888D386F /* AddIntelligenceLogView.swift */; };
+		0B0151ABF56BA061525426B8 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1EA85E6301980ED2FEAF4 /* Habit.swift */; };
+		33E896C93B23A9FF2BFE149E /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8C83A7C6118518EC59044 /* AddHabitView.swift */; };
+		370CB1ED910BD10FD025C372 /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDC1BFA0C23CBD1C2A0D60 /* HabitsView.swift */; };
+		405EA807D9DBCEEA45044DF6 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F09EBB5DDB08D9A4C98BC4 /* JournalEntry.swift */; };
+		45A1E9212133E3B507FBAAB0 /* ProgressPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC864C0A406F692CC32A65BE /* ProgressPhoto.swift */; };
+		4BD6527BFD247D8B331E6EFD /* MoodCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF54814F56723EAE1A9902 /* MoodCheckInView.swift */; };
+		51BF2E5FD7D4F6F4F93C97EF /* NewJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E512B3B1D18343A55B8C18 /* NewJournalEntryView.swift */; };
+		6289E3838E3E621514E55C36 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E5A102A232C9A6FBE8487 /* ReportsView.swift */; };
+		6A0274E54A7DBDC788DC5A18 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56572A9D2FAE1775709010E8 /* NotificationManager.swift */; };
+		7C0A113511234E467E0720E3 /* HabitLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3682DE18CDA9F7CA0D2D34A /* HabitLog.swift */; };
+		968BDA4BF95B9B111739C92B /* HabitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B47541A5AD320E31173ECE /* HabitRowView.swift */; };
+		A5B7BC4C2430F90081F62B72 /* GlowUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3298042EAF6141AA344AD7A /* GlowUpApp.swift */; };
+		AEECB11A3E407E57F3C10BE1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B9CBF923E72BBAA4E5B67E /* HomeView.swift */; };
+		B084C18D40B4FF1DCB4477A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3017E7DE0664E3667D0645 /* ContentView.swift */; };
+		B5195AFA46D1F42956E8753C /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546ED2FB788FFBADF7DB357 /* JournalView.swift */; };
+		C20AFDB2202AA84BD476B93B /* IntelligenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F9D585AC90E31E2A8BC71 /* IntelligenceView.swift */; };
+		CAA2A95D8C88982624075302 /* IntelligenceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DE654FFA46B63D5612857 /* IntelligenceLog.swift */; };
+		E16E9CF5AC7057312DA1F175 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C3C05D4D2BFFF285E4D78 /* SettingsView.swift */; };
+		E18744F6EB01B5E9FF5FEE7A /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0911A81359ADD316281B34F /* PhotosView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		393C3C05D4D2BFFF285E4D78 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3A3017E7DE0664E3667D0645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42B9CBF923E72BBAA4E5B67E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		482F9D585AC90E31E2A8BC71 /* IntelligenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceView.swift; sourceTree = "<group>"; };
+		5546ED2FB788FFBADF7DB357 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		56572A9D2FAE1775709010E8 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		5EFDC1BFA0C23CBD1C2A0D60 /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		713DE654FFA46B63D5612857 /* IntelligenceLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceLog.swift; sourceTree = "<group>"; };
+		92E512B3B1D18343A55B8C18 /* NewJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalEntryView.swift; sourceTree = "<group>"; };
+		94F506D5717AEFEEA19AD849 /* GlowUp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GlowUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E8C83A7C6118518EC59044 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		9EF1EA85E6301980ED2FEAF4 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		A0911A81359ADD316281B34F /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		ACDF54814F56723EAE1A9902 /* MoodCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCheckInView.swift; sourceTree = "<group>"; };
+		C44E5A102A232C9A6FBE8487 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		C7B47541A5AD320E31173ECE /* HabitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitRowView.swift; sourceTree = "<group>"; };
+		D1C7778C16D0BC5294937729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC864C0A406F692CC32A65BE /* ProgressPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPhoto.swift; sourceTree = "<group>"; };
+		E3682DE18CDA9F7CA0D2D34A /* HabitLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLog.swift; sourceTree = "<group>"; };
+		E8147263DF99E5BD888D386F /* AddIntelligenceLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIntelligenceLogView.swift; sourceTree = "<group>"; };
+		E8BDE3C5448B180E07A13E34 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		E9F09EBB5DDB08D9A4C98BC4 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		F3298042EAF6141AA344AD7A /* GlowUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowUpApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A62E26B7B83B83D1E889763 = {
+			isa = PBXGroup;
+			children = (
+				85BD4B9ABA0F90389B34B970 /* GlowUp */,
+				CE8A20A47547BAE6EF97002F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17596572FF5924D39CFEF462 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				5546ED2FB788FFBADF7DB357 /* JournalView.swift */,
+				92E512B3B1D18343A55B8C18 /* NewJournalEntryView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		2D88F4BF7B0A5E7F2BC6663E /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				C44E5A102A232C9A6FBE8487 /* ReportsView.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		2E84782C376C6F55A35F9009 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EF1EA85E6301980ED2FEAF4 /* Habit.swift */,
+				E3682DE18CDA9F7CA0D2D34A /* HabitLog.swift */,
+				713DE654FFA46B63D5612857 /* IntelligenceLog.swift */,
+				E9F09EBB5DDB08D9A4C98BC4 /* JournalEntry.swift */,
+				E8BDE3C5448B180E07A13E34 /* MoodEntry.swift */,
+				DC864C0A406F692CC32A65BE /* ProgressPhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52F86373DFF9DBC19B380113 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56572A9D2FAE1775709010E8 /* NotificationManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		583424D7FA9B1A0EF4D40C2A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C7B47541A5AD320E31173ECE /* HabitRowView.swift */,
+				42B9CBF923E72BBAA4E5B67E /* HomeView.swift */,
+				ACDF54814F56723EAE1A9902 /* MoodCheckInView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5F307E0D95946DA6607F9DBA /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				A0911A81359ADD316281B34F /* PhotosView.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		722825A4FFBAD83E7B71BBE4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				393C3C05D4D2BFFF285E4D78 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		85BD4B9ABA0F90389B34B970 /* GlowUp */ = {
+			isa = PBXGroup;
+			children = (
+				3A3017E7DE0664E3667D0645 /* ContentView.swift */,
+				F3298042EAF6141AA344AD7A /* GlowUpApp.swift */,
+				D1C7778C16D0BC5294937729 /* Info.plist */,
+				2E84782C376C6F55A35F9009 /* Models */,
+				52F86373DFF9DBC19B380113 /* Utilities */,
+				E8D575EDDBF1A2B54ACC7742 /* Views */,
+			);
+			path = GlowUp;
+			sourceTree = "<group>";
+		};
+		A2A9958CF41F7610F74289F6 /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				E8147263DF99E5BD888D386F /* AddIntelligenceLogView.swift */,
+				482F9D585AC90E31E2A8BC71 /* IntelligenceView.swift */,
+			);
+			path = Intelligence;
+			sourceTree = "<group>";
+		};
+		BDF5446F2BF397159B629C9C /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				96E8C83A7C6118518EC59044 /* AddHabitView.swift */,
+				5EFDC1BFA0C23CBD1C2A0D60 /* HabitsView.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		CE8A20A47547BAE6EF97002F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F506D5717AEFEEA19AD849 /* GlowUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D575EDDBF1A2B54ACC7742 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5446F2BF397159B629C9C /* Habits */,
+				583424D7FA9B1A0EF4D40C2A /* Home */,
+				A2A9958CF41F7610F74289F6 /* Intelligence */,
+				17596572FF5924D39CFEF462 /* Journal */,
+				5F307E0D95946DA6607F9DBA /* Photos */,
+				2D88F4BF7B0A5E7F2BC6663E /* Reports */,
+				722825A4FFBAD83E7B71BBE4 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6289B3345E3024A05901785F /* GlowUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8FC9089270BB6757505868 /* Build configuration list for PBXNativeTarget "GlowUp" */;
+			buildPhases = (
+				60F0E74CA766B1BFCBBF4BFE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowUp;
+			packageProductDependencies = (
+			);
+			productName = GlowUp;
+			productReference = 94F506D5717AEFEEA19AD849 /* GlowUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F37CC61A1073111564A484F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6289B3345E3024A05901785F = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 6D42E5F68F51F2C618860C31 /* Build configuration list for PBXProject "GlowUp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0A62E26B7B83B83D1E889763;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE8A20A47547BAE6EF97002F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6289B3345E3024A05901785F /* GlowUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60F0E74CA766B1BFCBBF4BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E896C93B23A9FF2BFE149E /* AddHabitView.swift in Sources */,
+				07F4DF96D3BE78CFC4E09E9C /* AddIntelligenceLogView.swift in Sources */,
+				B084C18D40B4FF1DCB4477A8 /* ContentView.swift in Sources */,
+				A5B7BC4C2430F90081F62B72 /* GlowUpApp.swift in Sources */,
+				0B0151ABF56BA061525426B8 /* Habit.swift in Sources */,
+				7C0A113511234E467E0720E3 /* HabitLog.swift in Sources */,
+				968BDA4BF95B9B111739C92B /* HabitRowView.swift in Sources */,
+				370CB1ED910BD10FD025C372 /* HabitsView.swift in Sources */,
+				AEECB11A3E407E57F3C10BE1 /* HomeView.swift in Sources */,
+				CAA2A95D8C88982624075302 /* IntelligenceLog.swift in Sources */,
+				C20AFDB2202AA84BD476B93B /* IntelligenceView.swift in Sources */,
+				405EA807D9DBCEEA45044DF6 /* JournalEntry.swift in Sources */,
+				B5195AFA46D1F42956E8753C /* JournalView.swift in Sources */,
+				4BD6527BFD247D8B331E6EFD /* MoodCheckInView.swift in Sources */,
+				072FED376B55080AAE667C75 /* MoodEntry.swift in Sources */,
+				51BF2E5FD7D4F6F4F93C97EF /* NewJournalEntryView.swift in Sources */,
+				6A0274E54A7DBDC788DC5A18 /* NotificationManager.swift in Sources */,
+				E18744F6EB01B5E9FF5FEE7A /* PhotosView.swift in Sources */,
+				45A1E9212133E3B507FBAAB0 /* ProgressPhoto.swift in Sources */,
+				6289E3838E3E621514E55C36 /* ReportsView.swift in Sources */,
+				E16E9CF5AC7057312DA1F175 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		073727AA559F794AF178C6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GlowUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andregrillo7.glowup;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A56BE3950AF71D1D26B99EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andregrillo7.glowup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D72F55D8B192D96E22EECF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andregrillo7.glowup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E50DC90375BF4AC93CF3501F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GlowUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andregrillo7.glowup;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8FC9089270BB6757505868 /* Build configuration list for PBXNativeTarget "GlowUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50DC90375BF4AC93CF3501F /* Debug */,
+				073727AA559F794AF178C6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D42E5F68F51F2C618860C31 /* Build configuration list for PBXProject "GlowUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56BE3950AF71D1D26B99EE3 /* Debug */,
+				D72F55D8B192D96E22EECF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F37CC61A1073111564A484F /* Project object */;
+}
