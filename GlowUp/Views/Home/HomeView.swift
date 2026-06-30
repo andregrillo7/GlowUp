@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 struct HomeView: View {
-    @Query(filter: #Predicate<Habit> { $0.isActive }) private var habits: [Habit]
+    @Query(filter: #Predicate<Habit> { $0.isActive == true }, sort: \Habit.createdAt) private var habits: [Habit]
     @Query(sort: \MoodEntry.date, order: .reverse) private var moods: [MoodEntry]
     @Environment(\.modelContext) private var context
     @State private var showMoodCheck = false

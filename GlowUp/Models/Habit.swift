@@ -10,6 +10,7 @@ final class Habit {
     var mediaURL: String?
     var createdAt: Date
     var isActive: Bool
+    @Relationship(deleteRule: .cascade, inverse: \HabitLog.habit)
     var logs: [HabitLog]
 
     init(name: String, category: HabitCategory, frequency: HabitFrequency, mediaURL: String? = nil) {

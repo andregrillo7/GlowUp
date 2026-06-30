@@ -4,7 +4,7 @@ import Charts
 
 struct ReportsView: View {
     @Query(sort: \MoodEntry.date) private var moods: [MoodEntry]
-    @Query(filter: #Predicate<Habit> { $0.isActive }) private var habits: [Habit]
+    @Query(filter: #Predicate<Habit> { $0.isActive == true }) private var habits: [Habit]
     @Query(sort: \HabitLog.date, order: .reverse) private var logs: [HabitLog]
 
     var body: some View {

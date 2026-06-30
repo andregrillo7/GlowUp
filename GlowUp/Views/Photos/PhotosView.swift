@@ -113,7 +113,7 @@ struct PhotosView: View {
         guard let item,
               let data = try? await item.loadTransferable(type: Data.self) else { return }
         // Compress large photos before storing to keep the database lean.
-        let storedData = compress(data) ?? data
+        let storedData = compress(data: data) ?? data
         let photo = ProgressPhoto(type: selectedType, imageData: storedData)
         context.insert(photo)
         try? context.save()

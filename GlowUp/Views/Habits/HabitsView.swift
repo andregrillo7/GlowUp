@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 struct HabitsView: View {
-    @Query(filter: #Predicate<Habit> { $0.isActive }, sort: \Habit.createdAt) private var habits: [Habit]
+    @Query(filter: #Predicate<Habit> { $0.isActive == true }, sort: \Habit.createdAt) private var habits: [Habit]
     @Environment(\.modelContext) private var context
     @State private var showAddHabit = false
     @State private var selectedCategory: HabitCategory? = nil
